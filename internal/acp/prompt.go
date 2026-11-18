@@ -14,12 +14,12 @@ import (
 	json "github.com/goccy/go-json"
 
 	"github.com/google/uuid"
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/attach"
-	"github.com/peggco/pegg/internal/builtin/tools/shell"
-	"github.com/peggco/pegg/internal/llm"
-	runpkg "github.com/peggco/pegg/internal/run"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/attach"
+	"github.com/pharrisee/pegg/internal/builtin/tools/shell"
+	"github.com/pharrisee/pegg/internal/llm"
+	runpkg "github.com/pharrisee/pegg/internal/run"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 type SessionPromptParams struct {

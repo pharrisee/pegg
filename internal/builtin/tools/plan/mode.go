@@ -1,8 +1,8 @@
 package plan
 
 import (
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func ApplyMode(a *agent.Agent, fs *vfs.VFS, m agent.Mode) {

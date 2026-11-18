@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/agents"
+	"github.com/pharrisee/pegg/internal/agent/agents"
 )
 
 func TestTaskPromptIncludesAgentDescriptions(t *testing.T) {

@@ -1,8 +1,8 @@
 package agent
 
 import (
-	"github.com/peggco/pegg/internal/agent/middleware"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent/middleware"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 type RunResult = middleware.Result

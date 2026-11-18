@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/prompt"
-	"github.com/peggco/pegg/internal/core/config"
-	decisionapi "github.com/peggco/pegg/internal/decision"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/core/config"
+	decisionapi "github.com/pharrisee/pegg/internal/decision"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 var (

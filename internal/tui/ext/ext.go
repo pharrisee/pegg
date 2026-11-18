@@ -1,8 +1,8 @@
 package ext
 
 import (
-	"github.com/peggco/pegg/internal/core/hook"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/core/hook"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 type Page = pkgplugin.TUIPage

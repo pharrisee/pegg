@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/peggco/pegg/internal/core/event"
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/core/event"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/utils/query"
 )
 
 type Manager struct {

@@ -5,10 +5,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/core/event"
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/core/event"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/core/logger"
 )
 
 const maxMessageRunes = 200

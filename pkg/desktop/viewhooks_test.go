@@ -6,9 +6,9 @@ import (
 	"context"
 	"testing"
 
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/pkg/desktop/internal/prefs"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/prefs"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 func newViewTestApp(t *testing.T) *App {

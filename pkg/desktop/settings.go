@@ -12,17 +12,17 @@ import (
 	"strings"
 	"time"
 
-	agenttools "github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/llm/subscription"
-	"github.com/peggco/pegg/internal/mcp"
-	"github.com/peggco/pegg/internal/pegglogin"
-	"github.com/peggco/pegg/internal/plugin"
-	"github.com/peggco/pegg/internal/skill"
-	"github.com/peggco/pegg/internal/stt"
-	"github.com/peggco/pegg/internal/tui/i18n"
-	"github.com/peggco/pegg/pkg/desktop/internal/acpclient"
+	agenttools "github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm/subscription"
+	"github.com/pharrisee/pegg/internal/mcp"
+	"github.com/pharrisee/pegg/internal/pegglogin"
+	"github.com/pharrisee/pegg/internal/plugin"
+	"github.com/pharrisee/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/stt"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/acpclient"
 )
 
 type LanguageOption struct {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/plugin"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/plugin"
 )
 
 func TestPluginsTabCanReincludeExcludedPlugin(t *testing.T) {

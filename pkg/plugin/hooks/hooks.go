@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 type HookKind = pkgplugin.HookKind

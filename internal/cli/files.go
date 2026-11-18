@@ -7,8 +7,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/logger"
 )
 
 func (c *CLI) newFilesCommand() *cobra.Command {

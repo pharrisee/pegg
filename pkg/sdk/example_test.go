@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/peggco/pegg/pkg/sdk"
+	"github.com/pharrisee/pegg/pkg/sdk"
 )
 
 func Example() {

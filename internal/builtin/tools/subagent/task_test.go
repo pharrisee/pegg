@@ -12,16 +12,16 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/agents"
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/agent/tools"
-	builtinmw "github.com/peggco/pegg/internal/builtin/middlewares"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/agents"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	builtinmw "github.com/pharrisee/pegg/internal/builtin/middlewares"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func TestMain(m *testing.M) {

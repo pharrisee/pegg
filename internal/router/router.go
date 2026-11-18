@@ -9,12 +9,12 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/decision"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/decision"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 const maxCandidates = 40

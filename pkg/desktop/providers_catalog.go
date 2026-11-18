@@ -3,5 +3,5 @@
 package main
 
 import (
-	_ "github.com/peggco/pegg/internal/llm/providers"
+	_ "github.com/pharrisee/pegg/internal/llm/providers"
 )

@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/llm"
-	openaidriver "github.com/peggco/pegg/internal/llm/drivers/openai"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/llm"
+	openaidriver "github.com/pharrisee/pegg/internal/llm/drivers/openai"
 )
 
 const (

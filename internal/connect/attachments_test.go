@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/attach"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent/attach"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func TestPrepareAttachmentsStoresIncoming(t *testing.T) {

@@ -1,6 +1,6 @@
 package session
 
-import "github.com/peggco/pegg/internal/llm"
+import "github.com/pharrisee/pegg/internal/llm"
 
 const (
 	HookCreate        = "session.create"

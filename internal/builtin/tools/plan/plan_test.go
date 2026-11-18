@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func TestEnterPlanModeAttachesReminder(t *testing.T) {

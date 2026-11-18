@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 type blobServer struct {

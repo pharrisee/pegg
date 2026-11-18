@@ -3,10 +3,10 @@ package settings
 import (
 	"strings"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/stt"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/stt"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
 )
 
 func (s *Settings) sttConfig() *config.STTConfig {

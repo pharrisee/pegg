@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 func (c *CLI) newConfigCommand() *cobra.Command {

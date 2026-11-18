@@ -5,8 +5,8 @@ package main
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/skill"
-	"github.com/peggco/pegg/pkg/desktop/internal/acpclient"
+	"github.com/pharrisee/pegg/internal/skill"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/acpclient"
 )
 
 func TestMergeSkillSettings(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/lsp/diagnostic"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/lsp/diagnostic"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func TestRealSubprocessEndToEnd(t *testing.T) {

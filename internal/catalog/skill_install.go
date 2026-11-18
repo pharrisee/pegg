@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/peggco/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/skill"
 )
 
 const sidecarName = ".pegg-skill.json"

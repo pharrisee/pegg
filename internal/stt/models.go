@@ -3,7 +3,7 @@ package stt
 import (
 	"sort"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 var providerBaseURLs = map[string]string{

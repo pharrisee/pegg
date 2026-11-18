@@ -7,8 +7,8 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func seedHistorySession(t *testing.T, srv *Server) (string, []session.Message) {

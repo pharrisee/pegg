@@ -11,16 +11,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/builtin/tools/subagent"
-	"github.com/peggco/pegg/internal/catalog"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/skill"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/builtin/tools/subagent"
+	"github.com/pharrisee/pegg/internal/catalog"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/utils/query"
 )
 
 var (

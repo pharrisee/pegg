@@ -13,8 +13,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/acp"
-	"github.com/peggco/pegg/internal/server"
+	"github.com/pharrisee/pegg/internal/acp"
+	"github.com/pharrisee/pegg/internal/server"
 )
 
 func (c *CLI) newServeCommand() *cobra.Command {

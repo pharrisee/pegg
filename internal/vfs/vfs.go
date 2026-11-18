@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/peggco/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/core/logger"
 )
 
 type Options struct {

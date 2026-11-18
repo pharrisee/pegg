@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/peggco/pegg/internal/core/bootstrap"
+	"github.com/pharrisee/pegg/internal/core/bootstrap"
 )
 
 func main() {

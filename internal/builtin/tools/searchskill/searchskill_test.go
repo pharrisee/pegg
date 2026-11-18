@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/catalog"
+	"github.com/pharrisee/pegg/internal/catalog"
 )
 
 func testClient(server *httptest.Server) *catalog.Client {

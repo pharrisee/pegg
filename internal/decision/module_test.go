@@ -3,7 +3,7 @@ package decision
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 func TestRegisterAndListProviders(t *testing.T) {

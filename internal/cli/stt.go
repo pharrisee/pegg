@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/stt"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/stt"
 )
 
 func (c *CLI) recordSTT(ctx context.Context, in io.Reader, out io.Writer) (string, error) {

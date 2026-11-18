@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/tui/components"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 const (

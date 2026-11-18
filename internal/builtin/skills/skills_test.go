@@ -6,7 +6,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/peggco/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
 )
 
 func TestBuiltinSkillsBuildAndParse(t *testing.T) {

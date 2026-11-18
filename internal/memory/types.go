@@ -3,7 +3,7 @@ package memory
 import (
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 type MemoryConfig = config.MemoryConfig

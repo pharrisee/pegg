@@ -9,8 +9,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/utils/query"
 )
 
 func (c *CLI) newSessionCommand() *cobra.Command {

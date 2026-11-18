@@ -5,7 +5,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/peggco/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent"
 )
 
 type Factory func() (*agent.Agent, error)

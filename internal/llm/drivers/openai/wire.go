@@ -3,7 +3,7 @@ package openai
 import (
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 type chatMessage struct {

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func TestDisableTools(t *testing.T) {

@@ -1,9 +1,9 @@
 package live
 
 import (
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 type ToolSummary struct {

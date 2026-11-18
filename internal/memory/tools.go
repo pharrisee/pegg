@@ -7,9 +7,9 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/agent/prompt"
-	"github.com/peggco/pegg/internal/agent/tool"
-	agenttools "github.com/peggco/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	agenttools "github.com/pharrisee/pegg/internal/agent/tools"
 )
 
 func generateSearchToolPrompt() (string, error) {

@@ -3,9 +3,9 @@ package file
 import (
 	"errors"
 
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func isScopeError(err error) bool {

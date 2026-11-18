@@ -7,7 +7,7 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/lsp/diagnostic"
+	"github.com/pharrisee/pegg/internal/lsp/diagnostic"
 )
 
 func pathToFileURI(abs string) string {

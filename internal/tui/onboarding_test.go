@@ -8,10 +8,10 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/pegglogin"
-	"github.com/peggco/pegg/internal/tui/i18n"
-	"github.com/peggco/pegg/internal/tui/page/settings"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/pegglogin"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/internal/tui/page/settings"
 )
 
 func newOnboardingTestApp(t *testing.T, cfg *config.Config) *App {

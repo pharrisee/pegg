@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/catalog"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/skill"
-	"github.com/peggco/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/catalog"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/tui/components"
 )
 
 func (a *App) searchHubSkills(query string) {

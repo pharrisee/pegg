@@ -3,9 +3,9 @@ package google
 import (
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/llm"
-	geminidriver "github.com/peggco/pegg/internal/llm/drivers/gemini"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/llm"
+	geminidriver "github.com/pharrisee/pegg/internal/llm/drivers/gemini"
 )
 
 const (

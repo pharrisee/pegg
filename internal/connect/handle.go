@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 const topicAgentAsk = agent.TopicAgentAsk

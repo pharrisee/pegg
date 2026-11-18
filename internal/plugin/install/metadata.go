@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/plugin"
+	"github.com/pharrisee/pegg/internal/plugin"
 )
 
 const stateDirName = ".state"

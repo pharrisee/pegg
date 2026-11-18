@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	_ "github.com/peggco/pegg/internal/builtin/lsps"
-	"github.com/peggco/pegg/internal/lsp"
+	_ "github.com/pharrisee/pegg/internal/builtin/lsps"
+	"github.com/pharrisee/pegg/internal/lsp"
 )
 
 func TestDefaultServersHaveFileTypes(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/peggco/pegg/pkg/desktop/internal/binary"
-	"github.com/peggco/pegg/pkg/desktop/internal/selfupdate"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/binary"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/selfupdate"
 
 	wailsruntime "github.com/wailsapp/wails/v2/pkg/runtime"
 )

@@ -8,13 +8,13 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/agents"
-	"github.com/peggco/pegg/internal/agent/prompt"
-	"github.com/peggco/pegg/internal/agent/reminder"
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/agents"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/agent/reminder"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func backgroundReminder(name string) reminder.Reminder {

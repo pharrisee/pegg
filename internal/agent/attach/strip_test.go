@@ -3,7 +3,7 @@ package attach
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func TestStripBlock(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/mcp"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/mcp"
 )
 
 type MCPServerInput struct {

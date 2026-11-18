@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 type MCPEntry = Entry

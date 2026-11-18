@@ -6,8 +6,8 @@ import (
 	"embed"
 	"log"
 
-	"github.com/peggco/pegg/pkg/desktop/internal/prefs"
-	"github.com/peggco/pegg/pkg/desktop/internal/themes"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/prefs"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/themes"
 
 	"github.com/wailsapp/wails/v2"
 	"github.com/wailsapp/wails/v2/pkg/options"

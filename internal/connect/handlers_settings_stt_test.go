@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
-	_ "github.com/peggco/pegg/internal/stt/providers"
+	"github.com/pharrisee/pegg/internal/core/config"
+	_ "github.com/pharrisee/pegg/internal/stt/providers"
 )
 
 func TestSTTSettingsRoundTrip(t *testing.T) {

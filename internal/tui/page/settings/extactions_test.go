@@ -5,7 +5,7 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 func extTestPage() pkgplugin.TUIPage {

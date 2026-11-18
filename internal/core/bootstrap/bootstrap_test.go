@@ -3,9 +3,9 @@ package bootstrap
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 type discardHandler struct{}

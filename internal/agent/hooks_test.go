@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 const hookMarker = "%%skill-test%%"

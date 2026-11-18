@@ -16,10 +16,10 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/catalog"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/mcp"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/catalog"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/mcp"
 )
 
 const (

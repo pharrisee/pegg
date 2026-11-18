@@ -7,8 +7,8 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 var pluginNamedKeys = map[string]tcell.Key{

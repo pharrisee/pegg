@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/peggco/pegg/internal/core/update"
+	"github.com/pharrisee/pegg/internal/core/update"
 )
 
 func AssetFilter(goos, goarch string) string {

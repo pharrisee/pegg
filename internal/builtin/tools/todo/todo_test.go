@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 const testSessionID = "test-session"

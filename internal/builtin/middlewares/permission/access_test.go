@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func TestAccessCheckerUnrestrictedGrant(t *testing.T) {

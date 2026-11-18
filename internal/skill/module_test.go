@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
 )
 
 func TestMaterializeTo(t *testing.T) {

@@ -3,8 +3,8 @@ package session
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/utils/query"
 )
 
 func TestManagerCompactSessionCreatesLinkedSession(t *testing.T) {

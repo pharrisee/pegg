@@ -11,18 +11,18 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/attach"
-	"github.com/peggco/pegg/internal/builtin/middlewares/compaction"
-	"github.com/peggco/pegg/internal/core/event"
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/llm"
-	runpkg "github.com/peggco/pegg/internal/run"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/i18n"
-	"github.com/peggco/pegg/internal/tui/page/settings"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/attach"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/compaction"
+	"github.com/pharrisee/pegg/internal/core/event"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/llm"
+	runpkg "github.com/pharrisee/pegg/internal/run"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/internal/tui/page/settings"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 const maxToolPartial = 64 * 1024

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/core/event"
 )
 
 type promptResult struct {

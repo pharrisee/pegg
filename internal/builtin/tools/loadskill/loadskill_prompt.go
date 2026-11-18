@@ -1,8 +1,8 @@
 package loadskill
 
 import (
-	"github.com/peggco/pegg/internal/agent/prompt"
-	"github.com/peggco/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/skill"
 )
 
 func loadSkillPromptBuilder() *prompt.Prompt {

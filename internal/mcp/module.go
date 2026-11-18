@@ -3,9 +3,9 @@ package mcp
 import (
 	"fmt"
 
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/logger"
 )
 
 func Module(global map[string]config.MCPServerConfig, log *logger.Logger) (*Manager, error) {

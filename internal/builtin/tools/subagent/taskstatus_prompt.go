@@ -1,6 +1,6 @@
 package subagent
 
-import "github.com/peggco/pegg/internal/agent/prompt"
+import "github.com/pharrisee/pegg/internal/agent/prompt"
 
 func taskstatusToolPromptBuilder() *prompt.Prompt {
 	return prompt.New().

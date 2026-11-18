@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/peggco/pegg/internal/catalog"
+	"github.com/pharrisee/pegg/internal/catalog"
 )
 
 func writeTestSkill(t *testing.T, dir, name string) {

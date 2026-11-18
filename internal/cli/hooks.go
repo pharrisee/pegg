@@ -11,8 +11,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/plugin"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/plugin"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 type hookManager interface {

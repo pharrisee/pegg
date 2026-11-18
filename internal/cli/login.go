@@ -9,10 +9,10 @@ import (
 	"github.com/manifoldco/promptui"
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/llm/subscription"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm/subscription"
 )
 
 func (c *CLI) newLoginCommand() *cobra.Command {

@@ -5,7 +5,7 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 func TestMemoryTabFocusReachesStatsAndClear(t *testing.T) {

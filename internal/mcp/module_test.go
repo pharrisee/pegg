@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/logger"
 )
 
 type discardHandler struct{}

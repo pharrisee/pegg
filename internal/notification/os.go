@@ -3,7 +3,7 @@ package notification
 import (
 	"github.com/gen2brain/beeep"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 const DriverOS = "os"

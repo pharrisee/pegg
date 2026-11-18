@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 type Store struct {

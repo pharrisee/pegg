@@ -11,13 +11,13 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/builtin/tools/file"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/builtin/tools/file"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 type discardHandler struct{}

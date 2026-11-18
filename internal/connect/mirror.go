@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent/attach"
-	"github.com/peggco/pegg/internal/live"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/agent/attach"
+	"github.com/pharrisee/pegg/internal/live"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func (c *Connector) startLiveMirror(ctx context.Context) {

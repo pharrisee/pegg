@@ -9,10 +9,10 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/stt"
-	_ "github.com/peggco/pegg/internal/stt/drivers"
-	_ "github.com/peggco/pegg/internal/stt/providers"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/stt"
+	_ "github.com/pharrisee/pegg/internal/stt/drivers"
+	_ "github.com/pharrisee/pegg/internal/stt/providers"
 )
 
 func testConfig(baseURL string) *config.Config {

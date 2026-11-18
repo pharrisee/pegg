@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/mcp"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/mcp"
 )
 
 func TestMCPAddGlobal(t *testing.T) {

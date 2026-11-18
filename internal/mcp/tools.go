@@ -7,8 +7,8 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	agenttool "github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/agent/tools"
+	agenttool "github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/agent/tools"
 )
 
 var _ agenttool.Dynamic = (*MCPTool)(nil)

@@ -1,6 +1,6 @@
 package schedule
 
-import "github.com/peggco/pegg/internal/core/config"
+import "github.com/pharrisee/pegg/internal/core/config"
 
 func isAskMode(mode string) bool {
 	switch mode {

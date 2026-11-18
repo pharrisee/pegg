@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/peggco/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/skill"
 )
 
 func TestHandleSkillsListIncludesDynamicSkills(t *testing.T) {

@@ -8,14 +8,14 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/router"
-	"github.com/peggco/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/router"
+	"github.com/pharrisee/pegg/internal/tui/components"
 
-	_ "github.com/peggco/pegg/internal/decision/providers"
+	_ "github.com/pharrisee/pegg/internal/decision/providers"
 )
 
 type permDiscardHandler struct{}

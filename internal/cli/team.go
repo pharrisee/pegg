@@ -21,7 +21,7 @@ import (
 	json "github.com/goccy/go-json"
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 var (

@@ -3,9 +3,9 @@ package groq
 import (
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/stt"
-	driver "github.com/peggco/pegg/internal/stt/drivers/openai"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/stt"
+	driver "github.com/pharrisee/pegg/internal/stt/drivers/openai"
 )
 
 const ProviderName = "groq"

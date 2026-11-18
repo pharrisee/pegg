@@ -8,15 +8,15 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/agent/middlewares"
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/builtin/middlewares/permission"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/decision"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/i18n"
-	"github.com/peggco/pegg/internal/tui/layout"
-	"github.com/peggco/pegg/internal/tui/styles"
+	"github.com/pharrisee/pegg/internal/agent/middlewares"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/permission"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/decision"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/internal/tui/layout"
+	"github.com/pharrisee/pegg/internal/tui/styles"
 )
 
 type permPreset int

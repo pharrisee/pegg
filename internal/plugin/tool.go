@@ -11,11 +11,11 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 const maxPluginAttachmentBytes = 25 * 1024 * 1024

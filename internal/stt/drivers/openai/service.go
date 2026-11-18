@@ -12,7 +12,7 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/stt"
+	"github.com/pharrisee/pegg/internal/stt"
 )
 
 const maxResponseBytes = 1 << 20

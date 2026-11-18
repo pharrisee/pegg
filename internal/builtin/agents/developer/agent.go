@@ -1,11 +1,11 @@
 package developer
 
 import (
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/agents"
-	_ "github.com/peggco/pegg/internal/builtin/middlewares"
-	"github.com/peggco/pegg/internal/builtin/tools/file"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/agents"
+	_ "github.com/pharrisee/pegg/internal/builtin/middlewares"
+	"github.com/pharrisee/pegg/internal/builtin/tools/file"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func Register(fs *vfs.VFS) error {

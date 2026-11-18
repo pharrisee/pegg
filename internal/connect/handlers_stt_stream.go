@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/peggco/pegg/internal/stt"
+	"github.com/pharrisee/pegg/internal/stt"
 )
 
 type sttStreamSession struct {

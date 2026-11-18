@@ -3,8 +3,8 @@ package sdk
 import (
 	"context"
 
-	"github.com/peggco/pegg/internal/builtin/middlewares/permission"
-	"github.com/peggco/pegg/internal/schedule"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/permission"
+	"github.com/pharrisee/pegg/internal/schedule"
 )
 
 type engineExecutor struct {

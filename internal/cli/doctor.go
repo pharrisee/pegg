@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/core/cache"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/update"
+	"github.com/pharrisee/pegg/internal/core/cache"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/update"
 )
 
 func (c *CLI) newDoctorCommand() *cobra.Command {

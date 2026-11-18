@@ -7,10 +7,10 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/styles"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/styles"
 )
 
 type KeyEvent struct {

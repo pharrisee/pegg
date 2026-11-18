@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/builtin/middlewares/compaction"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/live"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/compaction"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/live"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func (c *CLI) attachSession(ctx context.Context, out io.Writer, in io.Reader, sessionID string, follow bool) error {

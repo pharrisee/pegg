@@ -3,9 +3,9 @@ package connect
 import (
 	"context"
 
-	"github.com/peggco/pegg/internal/agent/middlewares"
-	"github.com/peggco/pegg/internal/builtin/middlewares/permission"
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/agent/middlewares"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/permission"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 var permissionModes = []string{"allow", "semi-ask", "ask", "semi-judge", "judge"}

@@ -16,7 +16,7 @@ func TestScaffoldPlugin(t *testing.T) {
 		dir:     dir,
 		module:  "example.com/demo",
 		name:    "demo",
-		pegg:    "github.com/peggco/pegg",
+		pegg:    "github.com/pharrisee/pegg",
 		version: "v0.2.4",
 		replace: "/tmp/pegg",
 	}); err != nil {
@@ -37,7 +37,7 @@ func TestScaffoldPlugin(t *testing.T) {
 		}
 	}
 	goMod, _ := os.ReadFile(filepath.Join(dir, "go.mod"))
-	if !strings.Contains(string(goMod), "module example.com/demo") || !strings.Contains(string(goMod), "replace github.com/peggco/pegg => /tmp/pegg") {
+	if !strings.Contains(string(goMod), "module example.com/demo") || !strings.Contains(string(goMod), "replace github.com/pharrisee/pegg => /tmp/pegg") {
 		t.Fatalf("go.mod: %s", goMod)
 	}
 	pluginGo, _ := os.ReadFile(filepath.Join(dir, "plugin.go"))
@@ -56,7 +56,7 @@ func TestScaffoldPlugin(t *testing.T) {
 	}
 	workflow, _ := os.ReadFile(filepath.Join(dir, ".github/workflows/release.yml"))
 	for _, want := range []string{
-		"uses: peggco/pegg/.github/workflows/plugin-release.yml@v0.2.4",
+		"uses: pharrisee/pegg/.github/workflows/plugin-release.yml@v0.2.4",
 		"binary: pegg-demo",
 		"secrets.GITHUB_TOKEN",
 		"permissions:",
@@ -95,10 +95,10 @@ func TestPluginBinaryName(t *testing.T) {
 
 func TestGithubRepoSlug(t *testing.T) {
 	cases := map[string]string{
-		"github.com/peggco/pegg":         "peggco/pegg",
-		"https://github.com/peggco/pegg": "peggco/pegg",
-		"github.com/peggco/pegg/":        "peggco/pegg",
-		"":                               "peggco/pegg",
+		"github.com/pharrisee/pegg":         "pharrisee/pegg",
+		"https://github.com/pharrisee/pegg": "pharrisee/pegg",
+		"github.com/pharrisee/pegg/":        "pharrisee/pegg",
+		"":                                  "pharrisee/pegg",
 	}
 	for input, want := range cases {
 		if got := githubRepoSlug(input); got != want {
@@ -116,7 +116,7 @@ func TestPluginReleaseWorkflowContract(t *testing.T) {
 	for _, want := range []string{
 		"workflow_call:",
 		"goreleaser/goreleaser-action@v6",
-		"go list -m github.com/peggco/pegg",
+		"go list -m github.com/pharrisee/pegg",
 		"checksums.txt",
 		"secrets.token",
 	} {

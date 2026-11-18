@@ -13,7 +13,7 @@ import (
 
 	"github.com/coder/websocket"
 
-	"github.com/peggco/pegg/internal/stt"
+	"github.com/pharrisee/pegg/internal/stt"
 )
 
 const (

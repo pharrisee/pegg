@@ -1,7 +1,7 @@
 package update
 
 import (
-	"github.com/peggco/pegg/internal/core/cache"
+	"github.com/pharrisee/pegg/internal/core/cache"
 )
 
 const cacheKeyDismissedVersion = "update_dismissed_version"

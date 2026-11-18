@@ -3,10 +3,10 @@ package connect
 import (
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/utils/query"
 )
 
 func listQuery(page, size int) query.Query {

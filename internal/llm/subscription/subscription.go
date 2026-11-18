@@ -3,7 +3,7 @@ package subscription
 import (
 	"sort"
 
-	"github.com/peggco/pegg/internal/llm/credentials"
+	"github.com/pharrisee/pegg/internal/llm/credentials"
 )
 
 type Info struct {

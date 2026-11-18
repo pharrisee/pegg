@@ -10,8 +10,8 @@ import (
 
 	"github.com/coder/websocket"
 
-	"github.com/peggco/pegg/internal/core/config"
-	_ "github.com/peggco/pegg/internal/stt/providers"
+	"github.com/pharrisee/pegg/internal/core/config"
+	_ "github.com/pharrisee/pegg/internal/stt/providers"
 )
 
 func TestSTTStream(t *testing.T) {

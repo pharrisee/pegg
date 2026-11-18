@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/plugin"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/plugin"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 type fakeHookManager struct {

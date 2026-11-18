@@ -1,9 +1,9 @@
 package tui
 
 import (
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/agents"
-	"github.com/peggco/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/agents"
+	"github.com/pharrisee/pegg/internal/tui/components"
 )
 
 func (a *App) ensureRuntimeMapsLocked() {

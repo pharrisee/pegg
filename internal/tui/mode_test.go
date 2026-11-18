@@ -5,9 +5,9 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/page/home"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/page/home"
 )
 
 func TestCycleModeOrder(t *testing.T) {

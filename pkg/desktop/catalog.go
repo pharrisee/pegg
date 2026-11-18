@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/catalog"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/mcp"
-	"github.com/peggco/pegg/internal/plugin/install"
-	"github.com/peggco/pegg/pkg/desktop/internal/acpclient"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/catalog"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/mcp"
+	"github.com/pharrisee/pegg/internal/plugin/install"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/acpclient"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 type CatalogItem struct {

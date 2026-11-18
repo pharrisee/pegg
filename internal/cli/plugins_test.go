@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/plugin"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/plugin"
 )
 
 func pluginReleaseServer(t *testing.T, tag string, data []byte) *httptest.Server {

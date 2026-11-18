@@ -6,7 +6,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 func TestProviderDriversIncludesBuiltins(t *testing.T) {

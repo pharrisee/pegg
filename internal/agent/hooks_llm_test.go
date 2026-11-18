@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/llm"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func withAgentHooks(t *testing.T) {

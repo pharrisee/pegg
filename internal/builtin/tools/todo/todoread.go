@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/peggco/pegg/internal/agent/prompt"
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func generateTodoreadToolPrompt() (string, error) {

@@ -3,8 +3,8 @@ package compaction
 import (
 	"context"
 
-	"github.com/peggco/pegg/internal/agent/middleware"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent/middleware"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func (m *Middleware) InvokeTool(ctx context.Context, call llm.ToolCall, next middleware.ToolInvoker) (string, error) {

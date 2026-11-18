@@ -1,14 +1,14 @@
 package middlewares
 
 import (
-	"github.com/peggco/pegg/internal/agent/middlewares"
-	"github.com/peggco/pegg/internal/builtin/middlewares/compaction"
-	"github.com/peggco/pegg/internal/builtin/middlewares/permission"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/decision"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent/middlewares"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/compaction"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/permission"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/decision"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 type Deps struct {

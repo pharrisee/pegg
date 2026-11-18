@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 const ignoreFileGit = ".gitignore"

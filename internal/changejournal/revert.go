@@ -9,7 +9,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func (m *Manager) snapshots(sessionID string) ([]session.Snapshot, error) {

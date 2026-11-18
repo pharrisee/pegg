@@ -107,7 +107,7 @@ func githubRepoSlug(module string) string {
 	slug = strings.TrimPrefix(slug, "github.com/")
 	slug = strings.TrimSuffix(slug, "/")
 	if slug == "" {
-		return "peggco/pegg"
+		return "pharrisee/pegg"
 	}
 	return slug
 }

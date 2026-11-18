@@ -1,4 +1,4 @@
-module github.com/peggco/pegg
+module github.com/pharrisee/pegg
 
 go 1.26.5
 

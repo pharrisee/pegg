@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/reminder"
+	"github.com/pharrisee/pegg/internal/agent/reminder"
 )
 
 func TestDisplayNotificationDoesNotWake(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/tui/styles"
+	"github.com/pharrisee/pegg/internal/tui/styles"
 )
 
 func TestChatSelectionCopyStripsFrame(t *testing.T) {

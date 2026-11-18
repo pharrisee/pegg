@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/event"
-	corehook "github.com/peggco/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/event"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
 )
 
 func newTestNotifier(t *testing.T, enabled bool) (*Notifier, *fakeDriver, event.Bus) {

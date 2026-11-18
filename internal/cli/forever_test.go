@@ -10,10 +10,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/pegglogin"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/pegglogin"
 )
 
 func stubForeverVerify(t *testing.T, fn func(context.Context, string, string, *http.Client) error) {

@@ -12,7 +12,7 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 const DefaultsURL = "https://cdn.pegg.dev/defaults.json"

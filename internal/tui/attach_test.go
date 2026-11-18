@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/live"
-	"github.com/peggco/pegg/internal/llm"
-	runpkg "github.com/peggco/pegg/internal/run"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/page/settings"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/live"
+	"github.com/pharrisee/pegg/internal/llm"
+	runpkg "github.com/pharrisee/pegg/internal/run"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/page/settings"
 )
 
 func TestActivateSessionAttachesToRemoteRun(t *testing.T) {

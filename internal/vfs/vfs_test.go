@@ -9,7 +9,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/peggco/pegg/internal/lsp/diagnostic"
+	"github.com/pharrisee/pegg/internal/lsp/diagnostic"
 )
 
 func newTestVFS(t *testing.T, root string) *VFS {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/gen2brain/beeep"
 
-	corehook "github.com/peggco/pegg/internal/core/hook"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
 )
 
 func (a *App) Notify(title, body string) {

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/stt"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/stt"
 )
 
 const DriverName = "openai"

@@ -3,7 +3,7 @@ package logger
 import (
 	"fmt"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 const DriverConsole = "console"

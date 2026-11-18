@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/peggco/pegg/internal/agent/agents"
+	"github.com/pharrisee/pegg/internal/agent/agents"
 )
 
 const mentionsDefaultLimit = 2000

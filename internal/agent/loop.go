@@ -7,11 +7,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent/attach"
-	"github.com/peggco/pegg/internal/agent/reminder"
-	"github.com/peggco/pegg/internal/agent/tool"
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent/attach"
+	"github.com/pharrisee/pegg/internal/agent/reminder"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 type runState struct {

@@ -9,7 +9,7 @@ import (
 	"github.com/Masterminds/semver/v3"
 	"github.com/creativeprojects/go-selfupdate"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 const repoSlug = "peggco/pegg"

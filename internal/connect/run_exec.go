@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/attach"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/attach"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func (m *runManager) execute(ctx context.Context, r *run, orch *agent.Agent, message string, history []llm.Message) {

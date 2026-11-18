@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/peggco/pegg/internal/live"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/live"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 type RunInfo struct {

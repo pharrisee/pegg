@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent/prompt"
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 const cmdTimeout = 3 * time.Second

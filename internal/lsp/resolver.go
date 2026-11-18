@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/utils/http"
-	"github.com/peggco/pegg/internal/utils/tar"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/utils/http"
+	"github.com/pharrisee/pegg/internal/utils/tar"
 )
 
 const installTimeout = 5 * time.Minute

@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 func (c *CLI) pluginCommands() []*cobra.Command {

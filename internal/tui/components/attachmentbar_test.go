@@ -3,7 +3,7 @@ package components
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func TestAttachmentBarAddAndCount(t *testing.T) {

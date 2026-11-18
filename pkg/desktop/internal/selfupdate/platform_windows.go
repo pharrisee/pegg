@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/peggco/pegg/pkg/desktop/internal/binary"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/binary"
 )
 
 func supportedTarget(goos, dir string) bool {

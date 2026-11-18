@@ -3,9 +3,9 @@ package usage
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func startAgent(t *testing.T, bus event.Bus, name string) *agent.Agent {

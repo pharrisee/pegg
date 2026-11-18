@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 func newMCPTestConnector(t *testing.T, cfg *config.Config) *Connector {

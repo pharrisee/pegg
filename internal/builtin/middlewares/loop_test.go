@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
-	agentmw "github.com/peggco/pegg/internal/agent/middleware"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent"
+	agentmw "github.com/pharrisee/pegg/internal/agent/middleware"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func contentMsg(s string) *llm.Message {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 type DriverFactory func(cfg config.CacheConfig) (Cache, error)

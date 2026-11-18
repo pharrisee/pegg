@@ -17,19 +17,19 @@ import (
 	"github.com/manifoldco/promptui"
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/utils/search"
+	"github.com/pharrisee/pegg/internal/utils/search"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/agents"
-	"github.com/peggco/pegg/internal/agent/attach"
-	"github.com/peggco/pegg/internal/builtin/middlewares/compaction"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/router"
-	runpkg "github.com/peggco/pegg/internal/run"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/agents"
+	"github.com/pharrisee/pegg/internal/agent/attach"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/compaction"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/router"
+	runpkg "github.com/pharrisee/pegg/internal/run"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/utils/query"
 )
 
 type runOptions struct {

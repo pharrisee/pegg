@@ -3,7 +3,7 @@ package vfs
 import (
 	"context"
 
-	"github.com/peggco/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/core/hook"
 )
 
 type TransformContext struct {

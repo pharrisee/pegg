@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/llm"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 const streamChunkHookTimeout = 100 * time.Millisecond

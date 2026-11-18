@@ -7,7 +7,7 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent"
 )
 
 func (s *Server) clientSupportsElicitation(mode string) bool {

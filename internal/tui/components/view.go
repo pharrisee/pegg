@@ -3,8 +3,8 @@ package components
 import (
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/tui/styles"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/tui/styles"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 func ViewStyle(name string, base tcell.Style) tcell.Style {

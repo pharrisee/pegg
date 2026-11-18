@@ -9,13 +9,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/agent"
-	agenttools "github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/plugin/bundle"
-	"github.com/peggco/pegg/internal/skill"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent"
+	agenttools "github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/plugin/bundle"
+	"github.com/pharrisee/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func TestBrowserUsePluginIntegration(t *testing.T) {

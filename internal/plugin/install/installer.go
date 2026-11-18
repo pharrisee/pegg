@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver/v3"
-	"github.com/peggco/pegg/internal/plugin"
+	"github.com/pharrisee/pegg/internal/plugin"
 )
 
 type Options struct {

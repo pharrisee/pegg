@@ -3,8 +3,8 @@ package acp
 import (
 	"time"
 
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/agent/attach"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent/attach"
 )
 
 func (s *Server) subscribeSubagents() {

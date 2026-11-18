@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/peggco/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/event"
 )
 
 func NewAskRequestID() string { return uuid.NewString() }

@@ -9,15 +9,15 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/llm/credentials"
-	"github.com/peggco/pegg/internal/llm/subscription"
-	"github.com/peggco/pegg/internal/pegglogin"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/i18n"
-	"github.com/peggco/pegg/internal/tui/layout"
-	"github.com/peggco/pegg/internal/tui/styles"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm/credentials"
+	"github.com/pharrisee/pegg/internal/llm/subscription"
+	"github.com/pharrisee/pegg/internal/pegglogin"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/internal/tui/layout"
+	"github.com/pharrisee/pegg/internal/tui/styles"
 )
 
 func drawSettings(t *testing.T, w, h int, s *Settings) {

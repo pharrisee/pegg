@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/reminder"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/agent/reminder"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func TestSystemFirstOnlyFoldsLateSystemMessages(t *testing.T) {

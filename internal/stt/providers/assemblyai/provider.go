@@ -3,9 +3,9 @@ package assemblyai
 import (
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/stt"
-	driver "github.com/peggco/pegg/internal/stt/drivers/assemblyai"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/stt"
+	driver "github.com/pharrisee/pegg/internal/stt/drivers/assemblyai"
 )
 
 const ProviderName = "assemblyai"

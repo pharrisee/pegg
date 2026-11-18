@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/peggco/pegg/internal/live"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/live"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func (s *Server) handleListRuns(w http.ResponseWriter, r *http.Request) {

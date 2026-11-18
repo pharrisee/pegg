@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/catalog"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/mcp"
+	"github.com/pharrisee/pegg/internal/catalog"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/mcp"
 )
 
 const testMCPSearchJSON = `{
@@ -67,7 +67,7 @@ const testPluginEntryJSON = `{
   "name": "browser-use",
   "description": "Drive a real Chromium browser through agent tools.",
   "repository": "peggco/pegg-browser-use",
-  "homepage": "https://github.com/peggco/pegg-browser-use",
+  "homepage": "https://github.com/pharrisee/pegg-browser-use",
   "license": "MIT",
   "isOfficial": true,
   "version": "0.3.1",

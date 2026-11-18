@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	agenttool "github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/vfs"
+	agenttool "github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func setupTestFS(t *testing.T) *vfs.VFS {

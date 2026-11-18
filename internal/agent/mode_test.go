@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/agent/tool"
 )
 
 func TestNormalizeMode(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 const RedactionToken = "[**REDACTED**]"

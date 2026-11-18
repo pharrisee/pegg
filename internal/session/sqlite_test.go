@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/utils/query"
 	_ "modernc.org/sqlite"
 )
 

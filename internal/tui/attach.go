@@ -1,12 +1,12 @@
 package tui
 
 import (
-	"github.com/peggco/pegg/internal/agent"
-	"github.com/peggco/pegg/internal/builtin/middlewares/compaction"
-	"github.com/peggco/pegg/internal/live"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/tui/page/settings"
+	"github.com/pharrisee/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/builtin/middlewares/compaction"
+	"github.com/pharrisee/pegg/internal/live"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/tui/page/settings"
 )
 
 func messagesUpTo(msgs []session.Message, maxSeq int) []session.Message {

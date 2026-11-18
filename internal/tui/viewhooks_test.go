@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/tui/components"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/agent"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 func TestHeaderLinesIncludesTitle(t *testing.T) {

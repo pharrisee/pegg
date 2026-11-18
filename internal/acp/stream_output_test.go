@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent"
 )
 
 func TestHandleStreamEventToolOutput(t *testing.T) {

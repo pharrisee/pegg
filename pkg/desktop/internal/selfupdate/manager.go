@@ -15,8 +15,8 @@ import (
 
 	goselfupdate "github.com/creativeprojects/go-selfupdate"
 
-	"github.com/peggco/pegg/internal/core/update"
-	"github.com/peggco/pegg/pkg/desktop/internal/binary"
+	"github.com/pharrisee/pegg/internal/core/update"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/binary"
 )
 
 const (

@@ -7,14 +7,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/peggco/pegg/internal/agent"
-	agentmw "github.com/peggco/pegg/internal/agent/middleware"
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/core/config"
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	decisionapi "github.com/peggco/pegg/internal/decision"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent"
+	agentmw "github.com/pharrisee/pegg/internal/agent/middleware"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/core/config"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	decisionapi "github.com/pharrisee/pegg/internal/decision"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 type Mode string

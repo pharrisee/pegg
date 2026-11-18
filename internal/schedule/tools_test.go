@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 func newTestTool(t *testing.T) *testEnv {

@@ -1,18 +1,18 @@
 package tools
 
 import (
-	"github.com/peggco/pegg/internal/builtin/tools/ask"
-	"github.com/peggco/pegg/internal/builtin/tools/file"
-	"github.com/peggco/pegg/internal/builtin/tools/loadskill"
-	"github.com/peggco/pegg/internal/builtin/tools/plan"
-	"github.com/peggco/pegg/internal/builtin/tools/searchskill"
-	"github.com/peggco/pegg/internal/builtin/tools/sendfile"
-	"github.com/peggco/pegg/internal/builtin/tools/shell"
-	"github.com/peggco/pegg/internal/builtin/tools/subagent"
-	"github.com/peggco/pegg/internal/builtin/tools/todo"
-	"github.com/peggco/pegg/internal/builtin/tools/web"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/builtin/tools/ask"
+	"github.com/pharrisee/pegg/internal/builtin/tools/file"
+	"github.com/pharrisee/pegg/internal/builtin/tools/loadskill"
+	"github.com/pharrisee/pegg/internal/builtin/tools/plan"
+	"github.com/pharrisee/pegg/internal/builtin/tools/searchskill"
+	"github.com/pharrisee/pegg/internal/builtin/tools/sendfile"
+	"github.com/pharrisee/pegg/internal/builtin/tools/shell"
+	"github.com/pharrisee/pegg/internal/builtin/tools/subagent"
+	"github.com/pharrisee/pegg/internal/builtin/tools/todo"
+	"github.com/pharrisee/pegg/internal/builtin/tools/web"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func Create(fs *vfs.VFS, sess *session.Manager) {

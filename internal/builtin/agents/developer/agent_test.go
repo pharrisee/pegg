@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/builtin/tools/shell"
-	"github.com/peggco/pegg/internal/builtin/tools/todo"
-	"github.com/peggco/pegg/internal/builtin/tools/web"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/builtin/tools/shell"
+	"github.com/pharrisee/pegg/internal/builtin/tools/todo"
+	"github.com/pharrisee/pegg/internal/builtin/tools/web"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func newTestFS(t *testing.T) *vfs.VFS {

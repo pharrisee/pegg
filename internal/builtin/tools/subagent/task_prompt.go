@@ -3,8 +3,8 @@ package subagent
 import (
 	"fmt"
 
-	"github.com/peggco/pegg/internal/agent/agents"
-	"github.com/peggco/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/agent/agents"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
 )
 
 func taskToolPromptBuilder(infos []agents.Info) *prompt.Prompt {

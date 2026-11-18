@@ -1,6 +1,6 @@
 package web
 
-import "github.com/peggco/pegg/internal/agent/prompt"
+import "github.com/pharrisee/pegg/internal/agent/prompt"
 
 func websearchToolPromptBuilder() *prompt.Prompt {
 	return prompt.New().

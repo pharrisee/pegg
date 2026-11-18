@@ -8,10 +8,10 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/llm"
-	openaidriver "github.com/peggco/pegg/internal/llm/drivers/openai"
-	"github.com/peggco/pegg/internal/utils/random"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/llm"
+	openaidriver "github.com/pharrisee/pegg/internal/llm/drivers/openai"
+	"github.com/pharrisee/pegg/internal/utils/random"
 )
 
 const (

@@ -1,6 +1,6 @@
 package searchskill
 
-import "github.com/peggco/pegg/internal/agent/prompt"
+import "github.com/pharrisee/pegg/internal/agent/prompt"
 
 func searchSkillPromptBuilder() *prompt.Prompt {
 	return prompt.New().

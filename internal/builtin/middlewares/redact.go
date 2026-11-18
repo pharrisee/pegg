@@ -3,8 +3,8 @@ package middlewares
 import (
 	"context"
 
-	agentmw "github.com/peggco/pegg/internal/agent/middleware"
-	"github.com/peggco/pegg/internal/llm"
+	agentmw "github.com/pharrisee/pegg/internal/agent/middleware"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 type Redaction struct {

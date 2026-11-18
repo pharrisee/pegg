@@ -6,16 +6,16 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/live"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/lsp"
-	"github.com/peggco/pegg/internal/mcp"
-	"github.com/peggco/pegg/internal/run"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/live"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/lsp"
+	"github.com/pharrisee/pegg/internal/mcp"
+	"github.com/pharrisee/pegg/internal/run"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 type Server struct {

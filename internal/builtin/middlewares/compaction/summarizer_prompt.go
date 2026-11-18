@@ -1,6 +1,6 @@
 package compaction
 
-import "github.com/peggco/pegg/internal/agent/prompt"
+import "github.com/pharrisee/pegg/internal/agent/prompt"
 
 func summarizerPromptBuilder() *prompt.Prompt {
 	return prompt.New().

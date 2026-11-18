@@ -3,9 +3,9 @@ package shared
 import (
 	"strings"
 
-	"github.com/peggco/pegg/internal/agent/prompt"
-	"github.com/peggco/pegg/internal/builtin/agents/shared/prompts"
-	"github.com/peggco/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/agent/prompt"
+	"github.com/pharrisee/pegg/internal/builtin/agents/shared/prompts"
+	"github.com/pharrisee/pegg/internal/skill"
 )
 
 func SharedPromptBuilder(providerID, modelID string) *prompt.Prompt {

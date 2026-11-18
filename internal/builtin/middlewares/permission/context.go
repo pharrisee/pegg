@@ -4,7 +4,7 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 type permitCtxKey struct{}

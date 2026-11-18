@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent/tool"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func setupTestVFS(t *testing.T, files map[string]string) *vfs.VFS {

@@ -10,8 +10,8 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/core/config"
-	_ "github.com/peggco/pegg/internal/stt/providers"
+	"github.com/pharrisee/pegg/internal/core/config"
+	_ "github.com/pharrisee/pegg/internal/stt/providers"
 )
 
 func TestSTTTranscribe(t *testing.T) {

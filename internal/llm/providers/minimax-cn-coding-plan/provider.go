@@ -3,9 +3,9 @@ package minimaxcncodingplan
 import (
 	"time"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/llm"
-	claudedriver "github.com/peggco/pegg/internal/llm/drivers/claude"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/llm"
+	claudedriver "github.com/pharrisee/pegg/internal/llm/drivers/claude"
 )
 
 const (

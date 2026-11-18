@@ -1,8 +1,8 @@
 package sdk
 
 import (
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/utils/query"
 )
 
 type CreateSessionOptions struct {

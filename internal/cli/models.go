@@ -8,10 +8,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/peggco/pegg/internal/core/cache"
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/router"
+	"github.com/pharrisee/pegg/internal/core/cache"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/router"
 )
 
 func (c *CLI) newModelsCommand() *cobra.Command {

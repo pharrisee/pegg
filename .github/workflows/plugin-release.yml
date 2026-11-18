@@ -52,7 +52,7 @@ jobs:
           cache: true
 
       - name: Resolve Pegg SDK
-        run: go list -m github.com/peggco/pegg
+        run: go list -m github.com/pharrisee/pegg
 
       - name: Select goreleaser config
         id: config

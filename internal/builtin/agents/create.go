@@ -1,10 +1,10 @@
 package agents
 
 import (
-	"github.com/peggco/pegg/internal/builtin/agents/developer"
-	"github.com/peggco/pegg/internal/builtin/agents/explorer"
-	"github.com/peggco/pegg/internal/builtin/agents/orchestrator"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/builtin/agents/developer"
+	"github.com/pharrisee/pegg/internal/builtin/agents/explorer"
+	"github.com/pharrisee/pegg/internal/builtin/agents/orchestrator"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func Create(fs *vfs.VFS) {

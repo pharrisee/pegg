@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/peggco/pegg/internal/stt"
+	"github.com/pharrisee/pegg/internal/stt"
 )
 
 type STTRequest struct {

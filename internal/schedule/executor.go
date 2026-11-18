@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 type ExecuteRequest struct {

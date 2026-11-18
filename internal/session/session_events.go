@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/peggco/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/core/event"
 )
 
 type SessionEvent struct {

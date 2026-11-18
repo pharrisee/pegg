@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 type Manager struct {

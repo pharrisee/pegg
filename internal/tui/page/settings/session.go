@@ -8,13 +8,13 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/session"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/i18n"
-	"github.com/peggco/pegg/internal/tui/layout"
-	"github.com/peggco/pegg/internal/tui/styles"
-	"github.com/peggco/pegg/internal/utils/query"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/internal/tui/layout"
+	"github.com/pharrisee/pegg/internal/tui/styles"
+	"github.com/pharrisee/pegg/internal/utils/query"
 )
 
 func newSessionTab(s *Settings) *sessionTab { return &sessionTab{settings: s} }

@@ -1,10 +1,10 @@
 package reminders
 
 import (
-	"github.com/peggco/pegg/internal/builtin/reminders/commentline"
-	"github.com/peggco/pegg/internal/builtin/reminders/todowrite"
-	"github.com/peggco/pegg/internal/builtin/reminders/usage"
-	"github.com/peggco/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/builtin/reminders/commentline"
+	"github.com/pharrisee/pegg/internal/builtin/reminders/todowrite"
+	"github.com/pharrisee/pegg/internal/builtin/reminders/usage"
+	"github.com/pharrisee/pegg/internal/core/event"
 )
 
 func Create(bus event.Bus) error {

@@ -3,7 +3,7 @@ package connect
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/agent"
+	"github.com/pharrisee/pegg/internal/agent"
 )
 
 func TestResolveRunMode(t *testing.T) {

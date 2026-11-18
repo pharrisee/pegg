@@ -3,7 +3,7 @@ package codex
 import (
 	"strings"
 
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 type codexRequest struct {

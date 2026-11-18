@@ -19,7 +19,7 @@ import (
 )
 
 const (
-	DefaultBaseURL = "https://github.com/peggco/pegg/releases/download"
+	DefaultBaseURL = "https://github.com/pharrisee/pegg/releases/download"
 	maxDownload    = 200 << 20
 )
 

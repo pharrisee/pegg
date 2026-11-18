@@ -1,8 +1,8 @@
 package shell
 
 import (
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/vfs"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/vfs"
 )
 
 func ShellTools(fs *vfs.VFS) {

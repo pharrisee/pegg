@@ -1,9 +1,9 @@
 package subagent
 
 import (
-	"github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/core/event"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/core/event"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 type HistoryReader interface {

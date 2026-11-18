@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"github.com/peggco/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
 )
 
 func (a *App) openChatFile(path string) {

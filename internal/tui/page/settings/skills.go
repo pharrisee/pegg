@@ -3,10 +3,10 @@ package settings
 import (
 	"github.com/gdamore/tcell/v2"
 
-	"github.com/peggco/pegg/internal/skill"
-	"github.com/peggco/pegg/internal/tui/components"
-	"github.com/peggco/pegg/internal/tui/i18n"
-	"github.com/peggco/pegg/internal/tui/layout"
+	"github.com/pharrisee/pegg/internal/skill"
+	"github.com/pharrisee/pegg/internal/tui/components"
+	"github.com/pharrisee/pegg/internal/tui/i18n"
+	"github.com/pharrisee/pegg/internal/tui/layout"
 )
 
 type skillsTab struct {

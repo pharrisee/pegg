@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 func withSettingsHookBus(t *testing.T) {

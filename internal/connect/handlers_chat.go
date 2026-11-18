@@ -3,8 +3,8 @@ package connect
 import (
 	"context"
 
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func (c *Connector) registerChatMethods() {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 func TestResolveProviderNeitherSet(t *testing.T) {

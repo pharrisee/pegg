@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/plugin"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/plugin"
 )
 
 func (c *Connector) registerPluginMethods() {

@@ -37,7 +37,7 @@ func (c *CLI) newPluginsNewCommand() *cobra.Command {
 	}
 	cmd.Flags().StringVar(&opts.dir, "dir", "", "target directory (defaults to the plugin name)")
 	cmd.Flags().StringVar(&opts.module, "module", "", "Go module path (defaults to the plugin name)")
-	cmd.Flags().StringVar(&opts.pegg, "pegg", "github.com/peggco/pegg", "Pegg module path")
+	cmd.Flags().StringVar(&opts.pegg, "pegg", "github.com/pharrisee/pegg", "Pegg module path")
 	cmd.Flags().StringVar(&opts.version, "pegg-version", "v0.2.4", "Pegg version to require")
 	cmd.Flags().StringVar(&opts.replace, "replace", "", "optional local Pegg path for a go.mod replace")
 	return cmd

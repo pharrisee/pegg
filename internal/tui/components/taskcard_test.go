@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/tui/styles"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/tui/styles"
 )
 
 func taskCardBase() *ChatItem {

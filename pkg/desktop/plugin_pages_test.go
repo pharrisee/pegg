@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/peggco/pegg/internal/tui/ext"
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	"github.com/pharrisee/pegg/internal/tui/ext"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 func TestPluginPagesConversion(t *testing.T) {

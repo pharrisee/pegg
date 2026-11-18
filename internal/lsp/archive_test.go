@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
-	utiltar "github.com/peggco/pegg/internal/utils/tar"
+	"github.com/pharrisee/pegg/internal/core/config"
+	utiltar "github.com/pharrisee/pegg/internal/utils/tar"
 )
 
 func makeZip(t *testing.T, name string, body []byte) []byte {

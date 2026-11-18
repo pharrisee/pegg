@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/peggco/pegg/internal/llm"
-	"github.com/peggco/pegg/internal/session"
+	"github.com/pharrisee/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/session"
 )
 
 func TestHistoryPage(t *testing.T) {

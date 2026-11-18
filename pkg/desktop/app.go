@@ -16,15 +16,15 @@ import (
 
 	goruntime "runtime"
 
-	"github.com/peggco/pegg/internal/core/config"
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/plugin"
-	"github.com/peggco/pegg/pkg/desktop/internal/acpclient"
-	"github.com/peggco/pegg/pkg/desktop/internal/binary"
-	"github.com/peggco/pegg/pkg/desktop/internal/prefs"
-	"github.com/peggco/pegg/pkg/desktop/internal/selfupdate"
-	"github.com/peggco/pegg/pkg/desktop/internal/themes"
-	"github.com/peggco/pegg/pkg/desktop/internal/workspace"
+	"github.com/pharrisee/pegg/internal/core/config"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/plugin"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/acpclient"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/binary"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/prefs"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/selfupdate"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/themes"
+	"github.com/pharrisee/pegg/pkg/desktop/internal/workspace"
 
 	wailsruntime "github.com/wailsapp/wails/v2/pkg/runtime"
 )

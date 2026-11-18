@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func TestBuildBodyPrependsSystemPrefix(t *testing.T) {

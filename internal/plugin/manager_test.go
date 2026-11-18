@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 
-	"github.com/peggco/pegg/internal/agent"
-	agenttools "github.com/peggco/pegg/internal/agent/tools"
-	"github.com/peggco/pegg/internal/core/config"
-	corehook "github.com/peggco/pegg/internal/core/hook"
-	"github.com/peggco/pegg/internal/core/logger"
-	"github.com/peggco/pegg/internal/plugin/bundle"
+	"github.com/pharrisee/pegg/internal/agent"
+	agenttools "github.com/pharrisee/pegg/internal/agent/tools"
+	"github.com/pharrisee/pegg/internal/core/config"
+	corehook "github.com/pharrisee/pegg/internal/core/hook"
+	"github.com/pharrisee/pegg/internal/core/logger"
+	"github.com/pharrisee/pegg/internal/plugin/bundle"
 )
 
 type hookPlugin struct {

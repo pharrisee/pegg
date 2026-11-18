@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/peggco/pegg/internal/core/cache"
+	"github.com/pharrisee/pegg/internal/core/cache"
 )
 
 var errCacheClosed = errors.New("cache: closed")

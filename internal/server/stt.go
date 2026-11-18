@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/peggco/pegg/internal/stt"
-	_ "github.com/peggco/pegg/internal/stt/drivers"
-	_ "github.com/peggco/pegg/internal/stt/providers"
+	"github.com/pharrisee/pegg/internal/stt"
+	_ "github.com/pharrisee/pegg/internal/stt/drivers"
+	_ "github.com/pharrisee/pegg/internal/stt/providers"
 )
 
 const maxSTTBytes = 8 << 20

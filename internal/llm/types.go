@@ -1,6 +1,6 @@
 package llm
 
-import "github.com/peggco/pegg/internal/core/config"
+import "github.com/pharrisee/pegg/internal/core/config"
 
 type Model = config.Model
 

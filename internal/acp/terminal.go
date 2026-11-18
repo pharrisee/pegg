@@ -7,7 +7,7 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/agent/tool"
+	"github.com/pharrisee/pegg/internal/agent/tool"
 )
 
 type TerminalOutputResult struct {

@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/event"
-	decisionapi "github.com/peggco/pegg/internal/decision"
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/event"
+	decisionapi "github.com/pharrisee/pegg/internal/decision"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 type resolveLLMProvider struct {

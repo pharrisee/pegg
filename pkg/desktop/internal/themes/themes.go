@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/peggco/pegg/internal/tui/styles"
+	"github.com/pharrisee/pegg/internal/tui/styles"
 )
 
 type Theme struct {

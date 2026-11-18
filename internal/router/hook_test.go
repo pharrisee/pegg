@@ -3,7 +3,7 @@ package router
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/config"
 )
 
 func TestModelOptionsHookAddsSmartRouterWhenEnabled(t *testing.T) {

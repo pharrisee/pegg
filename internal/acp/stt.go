@@ -8,9 +8,9 @@ import (
 
 	json "github.com/goccy/go-json"
 
-	"github.com/peggco/pegg/internal/stt"
-	_ "github.com/peggco/pegg/internal/stt/drivers"
-	_ "github.com/peggco/pegg/internal/stt/providers"
+	"github.com/pharrisee/pegg/internal/stt"
+	_ "github.com/pharrisee/pegg/internal/stt/drivers"
+	_ "github.com/pharrisee/pegg/internal/stt/providers"
 )
 
 const maxSTTBytes = 8 << 20

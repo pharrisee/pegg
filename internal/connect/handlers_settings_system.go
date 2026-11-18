@@ -4,8 +4,8 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/core/update"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/core/update"
 )
 
 func (c *Connector) registerSystemMethods() {

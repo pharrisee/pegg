@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	pkgplugin "github.com/peggco/pegg/pkg/plugin"
+	pkgplugin "github.com/pharrisee/pegg/pkg/plugin"
 )
 
 func withDispatcher(t *testing.T, fn pkgplugin.HookDispatchFunc) {

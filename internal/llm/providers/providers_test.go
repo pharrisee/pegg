@@ -3,7 +3,7 @@ package providers
 import (
 	"testing"
 
-	"github.com/peggco/pegg/internal/llm"
+	"github.com/pharrisee/pegg/internal/llm"
 )
 
 func TestGeneratedProvidersRegistered(t *testing.T) {

@@ -6,8 +6,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/peggco/pegg/internal/core/config"
-	"github.com/peggco/pegg/internal/pegglogin"
+	"github.com/pharrisee/pegg/internal/core/config"
+	"github.com/pharrisee/pegg/internal/pegglogin"
 )
 
 type RecommendedDefaults struct {
